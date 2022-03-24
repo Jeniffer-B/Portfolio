@@ -14,9 +14,9 @@ time, mark, audio, video
     vertical-align: baseline;
 }
 
-html {
+/* html {
     line-height: 1;
-}
+} */
 
 ol, ul {
     list-style: none;
@@ -37,10 +37,10 @@ q, blockquote {
     quotes: none;
 }
 
-    q:before, q:after, blockquote:before, blockquote:after {
-        content: "";
-        content: none;
-    }
+q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none;
+}
 
 a img {
     border: none;

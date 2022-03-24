@@ -1,53 +1,37 @@
 <template>
-    <div class="contact">
-        <h3 class="connect">Let's connect!</h3>
-        <div class="informationContainer">
-            <div class="contactInformation">
-                <p>e-mail: </p> <p class="email">jenifferbeltranbarreno@gmail.com</p>
-            </div>
-            <div class="socialMedia">
-                <p>Social media:</p>
-                <div class="socialIcons">
-                    <div>
-                        <a href="https://www.linkedin.com/in/jeniffer-beltran-36b22421b/">  
-                            <img alt="linkedin" src="@/assets/icons/linkedin.png"> 
-                        </a>
-                    </div>
-                    <div>
-                        <a href="https://github.com/Jeniffer-B">
-                            <img alt="linkedin" src="@/assets/icons/github.png">
-                        </a>
+    <div class="containerXl bg2">
+        <div class="container">
+            <div class="informationContainer textStyle1">
+                <h3 class="sectionName textColor1">Let's connect!</h3>
+                <div class="contactInformation ">
+                    <p>e-mail: </p> <p class="email textStyle1 textColor3">jenifferbeltranbarreno@gmail.com</p>
+                </div>
+                <div class="socialMedia">
+                    <p>Social media:</p>
+                    <div class="socialIcons">
+                        <div>
+                            <a href="https://www.linkedin.com/in/jeniffer-beltran-36b22421b/">  
+                                <img alt="linkedin" src="@/assets/icons/linkedin.png"> 
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://github.com/Jeniffer-B">
+                                <img alt="linkedin" src="@/assets/icons/github.png">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.behance.net/jenifferbeltran">
+                                <img alt="behance" src="@/assets/icons/behance.png">
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div>  
+            <img class="contactImg" alt="phone" src="@/assets/contact.png"> 
         </div>  
-        <img class="contactImg" alt="phone" src="@/assets/contact.png"> 
     </div>
 </template>
 <style scoped>
-h3 {
-    color: #FAB099;
-    font-size: 3.5em;
-}
-.contact {
-    height:100vh;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #B97CA2;
-}
-.informationContainer {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    font-family: 'Quantico', sans-serif;
-    letter-spacing: 0.2em;
-    text-align: left;
-    color: #fff;
-}
 .contactInformation {
     display: flex;
 }
@@ -71,9 +55,7 @@ h3 {
     margin:2% 2%;
     font-size: 1.3em;
 }
-.contactImg {
-    width: 20%;
-}
+
 /* tablet */
 @media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
     .informationContainer {
