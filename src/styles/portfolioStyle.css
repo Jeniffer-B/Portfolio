@@ -115,7 +115,6 @@
     border-radius: 1em;
     outline: none;
     box-shadow: 0 0 0.5em .25em var(--glow-color);
-    transition: all 0.3s;
 }
 .linkContainer a :hover {
     border-radius: 50%;
